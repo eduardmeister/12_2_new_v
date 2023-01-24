@@ -114,3 +114,28 @@ INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:12:37] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:12:37] "GET /static/style.css HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:12:39] "GET /post HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:12:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:15:45] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:15:47] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:15:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:15:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск: ага
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:15:53] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:15:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 614-302-176
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:38:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:38:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск: ага
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:38:39] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:38:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:38:42] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:38:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:38:53] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:38:53] "GET /uploads/IMG_4011.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:38:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:52:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2023 21:52:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
